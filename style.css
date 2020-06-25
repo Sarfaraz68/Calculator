@@ -1,0 +1,36 @@
+.main{
+    border: 2px;
+    width: 200px;
+    margin: 0 auto;
+    background-color: lightblue;
+    border: thin;
+}
+
+.result{
+    width: 96%;
+    background-color: whitesmoke;
+    color:black;
+    border: thin;
+
+}
+
+.clearBtn {
+    width: 98%;
+    background-color:whitesmoke;
+    border: thin;
+    margin: auto;
+    
+}
+.btn{
+    width: 37px;
+    background-color:whitesmoke;
+    margin: 5px;
+    font-size: small;
+    border: thin;
+}
+.halfBtn{
+    width: 98px;
+    background-color:whitesmoke;
+    margin-top: 5px;
+    border: thin;
+}
