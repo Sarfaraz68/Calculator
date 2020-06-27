@@ -28,8 +28,22 @@ function getResult(){
     result.value = eval(result.value);
     }
 }
-// function getPercentage(num){
-//     var result=document.getElementById("result");
-//     result.value +=num;
-    
-// }
+function delSingle(){
+    var result = document.getElementById("result");
+    //delChar="";
+    delChar = result.value.split("");
+    delChar.pop();
+    a=delChar.join("");
+    result.value=a;
+}
+
+function sqrNumber(){
+    var result = document.getElementById("result");
+    result.value=result.value*result.value;
+
+}
+
+function sqrRoot(){
+    var result = document.getElementById("result");
+    result.value=Math.pow(result.value,1/2);
+}

@@ -2,8 +2,9 @@
     border: 2px;
     width: 200px;
     margin: 0 auto;
-    background-color: lightblue;
+    background-color: gray;
     border: thin;
+    box-shadow:black 2px 2px 2px
 }
 
 .result{
@@ -11,22 +12,38 @@
     background-color: whitesmoke;
     color:black;
     border: thin;
+    margin: 2px;
 
 }
 
 .clearBtn {
     width: 98%;
-    background-color:whitesmoke;
+    background-color:red;
+    color: whitesmoke;
     border: thin;
-    margin: auto;
+    margin: 2px;
+    font-size: x-small;
     
 }
 .btn{
     width: 37px;
     background-color:whitesmoke;
     margin: 5px;
-    font-size: small;
+    font-size: x-small;
     border: thin;
+    box-shadow: gray 0px 2px 2px;
+    /* -webkit-box-shadow: 10px 10px 46px -3px rgba(0,0,0,0.34); */
+    /* -moz-box-shadow: 10px 10px 46px -3px rgba(0,0,0,0.34); */
+    /* /*box-shadow: gray 10px 10px 46px -3px ; */
+}
+.obtn{
+    width: 37px;
+    color: whitesmoke;
+    background-color:black;
+    margin: 5px;
+    font-size: x-small;
+    border: thin;
+    box-shadow: gray 0px 2px 2px;
 }
 .halfBtn{
     width: 98px;
